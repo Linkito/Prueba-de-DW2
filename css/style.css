@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+	--fondo-circulos: #55bc69;
+	--fondo-footer: #191919;
+	--color-titulos: #444;
+	--color-contenido: #888;
+	--color-footer: #6c6c6c;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: var(--color-contenido);
+}
+
+header{
+    background-color: #000;
+	padding-top: 35px;
+	padding-bottom: 25px;
+}
+
+.section{
+	padding:10% 0;
+}
+
+#hero{
+	background-image: url("../img/bg-hero.jpg");
+	background-size: cover;
+	color: #fff;
+	padding-top: 40px;
+}
+#hero h1{
+	font-size: 90px;
+	font-weight: 700;
+	color: #fff;
+}
+#hero h3{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 36px;
+	font-style: italic;
+	margin-bottom: 40px;
+}
+#hero h4{
+	font-size: 32px;
+	font-weight: 700;
+}
+#hero h6{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 300;
+}
+#hero h1, #hero h3, #hero h4, #hero h6{
+	color: #fff;
+}
+
+.btn-warning{
+	border-radius: 0.2;
+	padding: 12px 20px !important;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.titulo{
+	color: var(--color-titulos);
+	font-size: 32px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.titulo::after{
+	content: '';
+	display: block;
+	border-bottom: 2px solid #55bc69;
+	width: 50px;
+	margin: 20px auto;
+}
+
+#welcome i{
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 100%;
+	border: 1px solid #ddd;
+	font-size: 60px;
+	margin: 20px 0;
+	color: var(--color-circulos);
+	transition: all 0.5s ease-in-out;
+}
+#welcome article:nth-child(2) i{
+	background-color: var(--color-circulos);
+}
+#welcome h3{
+	font-size: 20px;
+}
+#welcome li{
+	font-a: left;
+}
+
+footer{
+	background-color: var(--color-footer);
+	padding: 30px 0px;
+	color: #C7C7C7;
+	text-align: center;
+}
